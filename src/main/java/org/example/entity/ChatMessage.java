@@ -1,6 +1,6 @@
-package entity;
+package org.example.entity;
 
-import enumeration.MessageType;
+import org.example.enumeration.MessageType;
 import lombok.*;
 import java.util.Date;
 
@@ -9,7 +9,7 @@ import java.util.Date;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class ChatMesage {
+public class ChatMessage {
 
         private MessageType type;
 
@@ -20,4 +20,4 @@ public class ChatMesage {
         private Date date = new Date();
 
     }
-}
+
